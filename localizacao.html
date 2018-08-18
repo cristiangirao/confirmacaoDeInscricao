@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Teste de localização</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+    </head>
+    <body>
+        <br>
+        <h3 class="title has-text-centered">COMSOLID.org</h3>
+        <p class="subtitle has-text-centered">Bem vindo ao maior evento de Software Livre do Ceará!</p>
+
+        <div class="column is-half is-offset-3">
+            <div class="field">
+                <div class="control has-icons-left has-icons-right">
+                    <input class="input is-success" type="email" placeholder="Email de inscrição">
+                    <span class="icon is-small is-left">
+                        <i class="fas fa-envelope"></i>
+                    </span>
+                    <span class="icon is-small is-right">
+                        <i class="fas fa-exclamation-triangle"></i>
+                    </span>
+                </div>
+            </div>
+            <div class="has-text-centered">
+                <a class="button is-link is-outlined" onclick="getLocation()">Confirmar inscrição</a>
+                <br>
+                <br>
+                <!-- Show the localization -->
+                <div id="localization" class="has-text-centered"></div>
+            </div>
+    </body>
+    <script src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
+    <script src="localizacao.js"></script>
+</html>
